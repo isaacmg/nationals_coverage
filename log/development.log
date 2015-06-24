@@ -8994,3 +8994,305 @@ Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 20:41:37 -04
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 20:41:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 20:47:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 119ms (Views: 109.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 49ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 20:47:57 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 20:49:54 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 20:50:02 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 56.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:02 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:03 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 20:50:05 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 21:13:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 21:15:00 -0400
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 21:15:21 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-23 21:18:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 383ms (Views: 339.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/updates.js?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/updates.css?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 21:18:20 -0400
