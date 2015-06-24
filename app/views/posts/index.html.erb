@@ -3,7 +3,7 @@
 
 <div class="container">
 <div class="row"> 
-<div class="col-md-6"> <iframe height =300px width =450px scrolling="no"  style="border:none" src="http://45.55.77.41:32774"> </iframe>   </div>
+<div class="col-md-6"> <iframe height =300px width =450px scrolling="no"   src="http://45.55.77.41:32774"> </iframe>  </div>
 <div class="col-md-6"> <h1> Sponsored by </h1>
           <img src="http://paddlesoft.herokuapp.com/assets/final_forever-6ba81dd9a174e7d05037710528f670eb.png" alt="PaddleSoft logo" width:369 height:160> </img> 
           <p> PaddleSoft is a paddling social networking site and river database built specifically for canoers, kayakers, rafters and other paddling enthusiasts. </p> 
@@ -18,8 +18,10 @@
 <table>
   <thead>
     <tr>
+    <% if mobile_device? %>
       <th>Title</th>
       <th>Description of update</th>
+      <% end %>
       <th colspan="3"></th>
     </tr>
   </thead>

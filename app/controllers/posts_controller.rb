@@ -1,11 +1,20 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
   before_action :authenticate, except: [:index]
+  helper_method :mobile_device?
    def authenticate
     authenticate_or_request_with_http_basic do |username, password|
       username == ENV['USERNAMEV'] && password == ENV['PASSWORDV']
     end
     end 
+    
+    def mobile_device?
+   if session[:mobile_param]
+     session[:mobile_param] == "1"
+   else
+     request.user_agent =~ /Mobile|webOS/
+   end
+end
   # GET /posts
   # GET /posts.json
   def index
