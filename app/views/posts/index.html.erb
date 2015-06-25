@@ -6,10 +6,11 @@
 <div class="col-md-6"> <iframe height =300px width =450px scrolling="no"   src="http://45.55.77.41:32774"> </iframe>
   <% @posts.each do |post| %>
       <tr>
+      	<p>
         <td><%= post.title %></td>
         <td><%= post.description %></td>
         <td><%= link_to 'Show', post %></td>
-        
+        </p>
 
       </tr>
       <% end %>
@@ -24,6 +25,9 @@
 </div>   
 </div>
 </div> 
+<div class="fb-page" data-href="https://www.facebook.com/paddlesoft"
+  data-width="380" data-hide-cover="false" data-show-facepile="false" 
+  data-show-posts="false"></div>
 <% if mobile_device? %>
 <table>
   <thead>
@@ -48,7 +52,7 @@
     <% end %>
   </tbody>
 </table>
-<% end %>
+<% end %> 
 
 
 	 
