@@ -1,0 +1,1 @@
+Simple application to give live updates for the 2015 Penobscot Whitewater Nationals.  
