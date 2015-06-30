@@ -15,7 +15,7 @@
       <tr>
       	<p>
       	<% if post.title.include? 'embed' %>
-      	<%=  embed_media %>
+      	<%=  embed_media(post.title) %>
       	<% end %>
         <td><%= post.title %></td>
         <td><%= post.description %></td>
