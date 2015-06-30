@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate, except: [:index]
+  before_action :authenticate, except: [:show, :index]
   helper_method :mobile_device?
    def authenticate
     authenticate_or_request_with_http_basic do |username, password|
